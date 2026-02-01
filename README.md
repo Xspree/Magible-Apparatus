@@ -1,6 +1,6 @@
-# XCrossed
+# Magible Apparatus
 
-A template for Hytale java plugins. Created by [Up](https://github.com/UpcraftLP), and slightly modified by Kaupenjoe and then changed to make XCrossed. 
+A template for Hytale java plugins. Created by [Up](https://github.com/UpcraftLP), and slightly modified by Kaupenjoe and then changed to make Magible Apparatus. 
 
 ### Configuring the Template
 If you for example installed the game in a non-standard location, you will need to tell the project about that.
