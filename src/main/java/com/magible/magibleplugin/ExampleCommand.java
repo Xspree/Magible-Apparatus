@@ -1,4 +1,4 @@
-package com.xcrossed.xcrossedplugin;
+package com.magible.magibleplugin;
 
 import com.hypixel.hytale.protocol.GameMode;
 import com.hypixel.hytale.server.core.Message;

@@ -3,7 +3,7 @@ plugins {
     id("hytale-mod") version "0.+"
 }
 
-group = "com.xcrossed"
+group = "com.magible"
 version = "0.1.0"
 val javaVersion = 25
 

@@ -1,4 +1,4 @@
-package com.xcrossed.ui.test;
+package com.magible.ui.test;
 
 import com.hypixel.hytale.builtin.model.commands.ModelCommand;
 import com.hypixel.hytale.codec.Codec;

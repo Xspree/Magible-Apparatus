@@ -1,4 +1,4 @@
-package com.xcrossed.xcrossedplugin;
+package com.magible.magibleplugin;
 
 
 import com.hypixel.hytale.logger.HytaleLogger;
@@ -7,10 +7,10 @@ import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 
-public class XCrossedPluggin extends JavaPlugin {
+public class MagiablePlugin extends JavaPlugin {
     private static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
 
-    public XCrossedPluggin(JavaPluginInit init) {
+    public MagiablePlugin(JavaPluginInit init) {
         super(init);
 
         LOGGER.atInfo().log("Hello from %s version %s", this.getName(), this.getManifest().getVersion().toString());

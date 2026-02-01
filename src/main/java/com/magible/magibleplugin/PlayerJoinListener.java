@@ -1,6 +1,6 @@
-package com.xcrossed.xcrossedplugin;
+package com.magible.magibleplugin;
 
-import com.xcrossed.ui.test.Test1Page;
+import com.magible.ui.test.Test1Page;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
 import com.hypixel.hytale.server.core.Message;
