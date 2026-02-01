@@ -1,0 +1,37 @@
+@GreetButtonStyle = TextButtonStyle(
+    Default: (Background: #3a7bd5, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #4a8be5, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #2a6bc5, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+Group {
+    Anchor: (Width: 400, Height: 200);
+    Background: #1a1a2e(0.95);
+    LayoutMode: Top;
+    Padding: (Full: 20);
+
+    Label #Title {
+        Text: "Tutorial Level 1";
+        Anchor: (Height: 40);
+        Style: (FontSize: 24, TextColor: #ffffff, Alignment: Center);
+    }
+
+    Label #Subtitle {
+        Text: "Static Display - No Events";
+        Anchor: (Height: 30);
+        Style: (FontSize: 16, TextColor: #888888, Alignment: Center);
+    }
+
+    Label #Info {
+        Text: "Press ESC to close";
+        Anchor: (Height: 25);
+        Style: (FontSize: 14, TextColor: #666666, Alignment: Center);
+    }
+
+     Group { Anchor: (Height: 10); }
+    TextButton #Button{
+    Anchor: (Height: 45);
+    Text: "Push Me!";
+    Style: @GreetButtonStyle;
+    }
+}
