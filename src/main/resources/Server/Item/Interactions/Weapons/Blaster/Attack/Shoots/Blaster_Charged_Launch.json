@@ -1,0 +1,8 @@
+{
+  "Type": "LaunchProjectile",
+  "RunTime": 0.25,
+  "Effects": {
+    "ItemAnimationId": "Shoot"
+  },
+  "ProjectileId": "Ice_Bolt"
+}

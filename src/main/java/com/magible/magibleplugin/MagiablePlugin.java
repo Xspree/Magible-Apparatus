@@ -22,6 +22,6 @@ public class MagiablePlugin extends JavaPlugin {
     protected void setup() {
         this.getCommandRegistry().registerCommand(new ExampleCommand(this.getName(), this.getManifest().getVersion().toString()));
         this.getCommandRegistry().registerCommand(new Test1Command());
-        this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, PlayerJoinListener::onPlayerJoin);
+
     }
 }

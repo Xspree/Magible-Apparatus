@@ -1,0 +1,18 @@
+{
+  "Type": "Simple",
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.167,
+  "Next": {
+    "Type": "Simple",
+    "Next": "Blaster_Charged_Launch"
+  },
+  "Failed": {
+    "Type": "Replace",
+    "DefaultValue": {
+      "Interactions": [
+        "Staff_Cast_Fail"
+      ]
+    },
+    "Var": "Staff_Cast_Summon_Fail"
+  }
+}

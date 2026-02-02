@@ -1,0 +1,8 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Modify": {
+    "Appearance": "BFurn",
+    "MaxHealth": 124
+  }
+}

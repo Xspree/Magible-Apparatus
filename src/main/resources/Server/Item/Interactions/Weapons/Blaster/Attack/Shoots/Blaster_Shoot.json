@@ -1,0 +1,40 @@
+{
+  "Type": "StatsCondition",
+  "Failed": "Gun_Shoot_Fail",
+  "Next": {
+    "Type": "ModifyInventory",
+    "AdjustHeldItemDurability": 0,
+    "Failed": "Gun_Shoot_Fail",
+    "Next": {
+      "Type": "Parallel",
+      "Interactions": [
+        {
+          "Interactions": [
+            {
+              "Type": "Simple",
+              "RunTime": 0.3,
+              "Effects": {
+                "ItemPlayerAnimationsId": "Stick",
+                "ItemAnimationId": "Shoot",
+                "ClearAnimationOnFinish": true,
+                "Particles": []
+              }
+            }
+          ]
+        },
+        {
+          "Interactions": [
+            {
+              "Type": "Projectile",
+              "RunTime": 0.15,
+              "Config": "Projectile_Config_Blaster_Ice_Bolt"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Costs": {
+    "Stamina": 0
+  }
+}

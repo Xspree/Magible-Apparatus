@@ -1,0 +1,50 @@
+{
+  "TranslationProperties": {
+    "Name": "Magible Floor Decorative"
+  },
+  "Icon": "Icons/ItemsGenerated/Magible_Floor_Deco.png",
+  "Set": "Rock_Gold_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "RandomRotation": "YawStep90",
+    "BlockParticleSetId": "Metal",
+    "Textures": [
+      {
+        "All": "BlockTextures/Magible Floor Deco.png",
+        "Weight": 1
+      }
+    ],
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#feb03f"
+  },
+  "Tags": {
+    "Family": [
+      "Gold"
+    ],
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Parent": "Rock_Gold_Brick",
+  "ResourceTypes": [
+    {
+      "Id": "Rock_Gold_Brick"
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
